@@ -1,17 +1,35 @@
+<p align="center">
+  <img src="logo.png" alt="Deluge Editor Logo" width="128" height="128" />
+</p>
+
 # Deluge Editor
 
-A desktop application wrapper for the [Zoho Deluge Tryout](https://deluge.zoho.com/tryout) environment, built with Electron.
+<p align="center">
+  <strong>A dedicated desktop wrapper for the Zoho Deluge Tryout environment.</strong>
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#download--install">Download</a> •
+  <a href="#developer-guide">Developer Guide</a> •
+  <a href="#license">License</a>
+</p>
+
+---
 
 ## Features
 
-- **Dedicated Workspace**: Runs Zoho Deluge in a standalone window, separate from your browser tabs.
-- **Native Experience**: Improved window management and taskbar integration.
+- 🚀 **Dedicated Workspace**: Runs Zoho Deluge in a standalone window, separate from your browser tabs.
+- 🪟 **Native Experience**: Improved window management and taskbar integration.
+- ⚡ **Lightweight**: Built with Electron for performance.
 
 ## Download & Install
 
 **No prerequisites needed!**
 
-Simply go to the **Releases/Versions** page and download the latest `.exe` installer. Run the installer to set up the application on your computer.
+1.  Go to the **[Releases](https://github.com/Hackb07/deluge-editor-win11/releases)** page.
+2.  Download the latest `.exe` installer (e.g., `Deluge Editor Setup 1.0.0.exe`).
+3.  Run the installer to set up the application.
 
 ---
 
@@ -26,12 +44,12 @@ If you want to build the application yourself or contribute, follow the steps be
 
 ### Installation
 
-1.  Clone the repository or download the source code.
-2.  Navigate to the project directory:
+1.  Clone the repository:
     ```bash
-    cd deluge-edito
+    git clone https://github.com/Hackb07/deluge-editor-win11.git
+    cd deluge-editor-win11
     ```
-3.  Install dependencies:
+2.  Install dependencies:
     ```bash
     npm install
     ```
@@ -46,17 +64,19 @@ npm start
 
 ### Build
 
-To build the application for your operating system (Windows):
+To create a distributable installer for Windows:
 
 ```bash
 npm run dist
 ```
 
-The output installer/executable will be located in the `dist` folder.
+The output installer will be in the `dist` folder.
 
 ## Technologies Used
 
 - [Electron](https://www.electronjs.org/)
 - [Electron Builder](https://www.electron.build/)
 
+## License
 
+ISC
