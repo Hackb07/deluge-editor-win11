@@ -77,6 +77,5 @@ The output installer will be in the `dist` folder.
 - [Electron](https://www.electronjs.org/)
 - [Electron Builder](https://www.electron.build/)
 
-## License
 
-ISC
+
